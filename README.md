@@ -129,7 +129,7 @@ other arguments:
 
     --n_feature: numbers of channels for the VAE and the GAN, and x2 for the SGM (by default 32 for VAE and GAN, 64 for the SGM).
 
-To reproduce Figure 6 top, run: 
+To reproduce Figure 7 top, run: 
 
     python3 runner_GM_MNIST.py --model=data
 
@@ -171,7 +171,7 @@ other arguments:
 
     --self_attn: if True, add self attention layers to the score network. 
 
-To reproduce Figure 6 bottom, run: 
+To reproduce Figure 7 bottom, run: 
 
     python3 runner_subset_MNIST.py --model=data
 
